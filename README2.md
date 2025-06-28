@@ -27,10 +27,10 @@ Define notification settings (email, SMS, webhook, Logic App) for alerts. Enable
 
 ## 💡 Use Case: VM Deletion Monitoring
 
-### 🧭 Goal
+### Goal
 Detect and respond when a **Virtual Machine is deleted**, ensuring the event is logged and stakeholders are notified.
 
-### ✅ Suggested Steps
+### Suggested Steps
 1. **Enable Activity Logs** on the subscription level.
 2. **Stream logs** to a Log Analytics Workspace.
 3. Create a **Log Analytics query** to detect deletion operations.
